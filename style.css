@@ -1,0 +1,237 @@
+.main-1 {
+  padding-top: 2rem;
+  display: flex;
+  margin: 0 2rem;
+}
+
+.main-section-1 {
+  margin: auto;
+  padding: 1rem;
+}
+
+.main-section-1 h1 {
+  font-size: 3.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.main-section-1 h1 span {
+  color: var(--primary-color);
+}
+.main-section-1 p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 1.5rem;
+  width: 19rem;
+}
+
+
+.main-section-1 button {
+  padding: .8rem;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px;
+}
+
+
+.main-section-1 button:hover {
+  background: var(--primary-color);
+  transition: .3s;
+  color: #F0F0F0;
+  transform: scale(1.1);
+}
+
+.body-image {
+  filter: drop-shadow(10px 4px 10px rgba(5, 0, 0, 0.9));
+  margin: auto;
+}
+
+/* INFORMATION CARDS
+*/
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+.cards div:hover {
+  transform: translateX(16px);
+  transition: 0.3s;
+  z-index: 0;
+  }
+
+#card2:hover, #card4:hover {
+  transform: translateX(30px)
+}
+
+.cards h1{
+  color: var(--text-color);
+  font-family: 'Roboto',sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  display: flex;
+  margin: 34px 34px;
+}
+
+.cards p{
+  width: 204px;
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 34px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  margin: 2rem;
+  gap: 50px;
+}
+
+
+#card1, #card2, #card3, #card4 {
+  margin: auto
+}
+
+div a .arrow {
+  margin: 80px 20px 10px 180px;
+}
+
+#card1{
+  width: 272px;
+  height: 306px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: var(--terciary-color);
+  box-shadow: 4px 4px 0px 0px #000;
+
+}
+
+#card2{
+  width: 272px;
+  height: 306px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: var(--highlight-color);
+  box-shadow: 4px 4px 0px 0px #000;
+}
+
+#card3{
+  width: 272px;
+  height: 306px;
+  flex-shrink: 0;
+  border: 2px solid #000; 
+  background: var(--secundary-color);
+  box-shadow: 4px 4px 0px 0px #000;
+}
+
+#card4{
+
+  width: 272px;
+  height: 306px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: var(--primary-color);
+  box-shadow: 4px 4px 0px 0px #000;
+  padding-bottom: 20px;
+  margin-bottom: 4em;
+}
+
+#add{
+  color: #000;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 48px 0 0 ;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem 2rem 2rem;
+  font-size: 32px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/*---------------------FINAL DA PARTE QUE PODE SER SUBSTITUIDA!------------------*/
+
+
+/*Responsivo*/ 
+
+@media screen and (max-width: 750px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-section-1 {
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .main-section-1 h1 {
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 3.2rem;
+
+  }
+  
+  .main-section-1 h1 span {
+    color: var(--primary-color);
+  }
+  .main-section-1 p {
+    font-family: 'Roboto', sans-serif;
+    width: 20rem;
+    margin: 0;
+  }
+  
+  
+  .main-section-1 button {
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    margin: 0;
+  }
+
+}
+
+
+@media screen and (min-width: 751px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    margin: 2rem;
+    gap: 50px;
+  }
+
+
+  #card1, #card2, #card3, #card4 {
+    margin: auto
+  }
+  
+  #card1:hover, #card2:hover, #card3:hover, #card4:hover {
+    transform: scale(1.07);
+  }
+}

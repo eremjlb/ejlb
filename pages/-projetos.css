@@ -1,0 +1,71 @@
+/*MAIN*/
+.protagonistas, .quinta {
+  background: var(--secundary-color) ;
+  border: #1b1a1a 1.5px solid;
+  height: 12rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px;
+}
+
+.arrow{
+  font-size: 32px;
+  margin-left: 300px;
+}
+
+.semear, .robotica {
+  background: var(--terciary-color);
+  border: #1b1a1a 1.5px solid;
+  height: 12rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px;
+}
+
+.setembro {
+  background: var(--highlight-color);
+  border: #1b1a1a 1.5px solid;
+  height: 12rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px;
+}
+
+.eletivas {
+  background: var(--primary-color);
+  border: #1b1a1a 1.5px solid;
+  height: 12rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px;
+}
+
+.menuAbrir h1 {
+  margin-bottom: .7rem;
+}
+
+.abrir {
+  height: fit-content;
+}
+
+
+/* MENUS */
+
+main .menu  {
+  height: 10rem;
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  
+}
+
+
+@media screen and (min-width: 751px) {
+  
+  .menus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+  }
+}

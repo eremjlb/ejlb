@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./pages/-astyle.css">
+    <link rel="stylesheet" href="./script.js" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EREM José Leite Barros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <section>
+
+        <!------------------------------TOP BAR------------------------->
+        <div class="header">
+            <img id="desktop-image2" class="title-image" src="assets/title-image.png" alt="">
+            <img
+              id="desktop-image"
+              class="title-image"
+              src="assets/title-image.png"
+              alt="imagem do titulo"
+            />
+            <h2 class="abrevied-title">EJLB</h2>
+            <h2 class="complet-title">EREM José Leite Barros</h2>
+            <button class="header-button"><a href="https://siepe.educacao.pe.gov.br/">Portal siepe</a></button>
+          
+            <!----------------------------NAVIGATION MENU------------------------>
+            <div class="nav">
+            <nav class="navigation-menu">
+              <ion-icon id="burguer"  class="header-burguer" name="menu" onclick="clickMenu()"></ion-icon>
+              <div class="box-links">
+                <ul id="itens" class="header-links">
+                  <ion-icon id="close" name="close-sharp" onclick="closeMenu()"></ion-icon>
+                  <li><a href="./index.html"">Início</a></li>
+                  <li><a href="./pages/projetos.html">Projetos</a></li>
+                  <li><a href="./pages/eventos.html">Eventos</a></li>
+                  <li><a href="./pages/quemsomos.html">Quem<br>Somos</a></li>
+                  <li><a href="./pages/contato.html">Contato</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          </div>
+          <ul class="desktop-links">
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./pages/projetos.html">Projetos</a></li>
+            <li><a href="./pages/eventos.html">Eventos</a></li>
+            <li><a href="./pages/quemsomos.html">Quem Somos</a></li>
+            <li><a href="./pages/contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+      </section>
+    </header>
+
+      <!----------------------ESSA PARTE PODE SER SUBSTITUIDA------------------->
+
+
+      <!----------------------------CONTAINER------------------------------------>
+   
+    <main class="container">
+      <section class="main-1">
+        <div class="main-section-1">
+          <h1>
+            Somos referência,<br> por <span>excelência!</span>
+          </h1>
+          <p>
+            Desde sua inauguração quase 40 anos atrás, a <em>Escola José Leite Barros </em> oferece um ensino de qualidade e diversos projetos  para os seus alunos.
+          </p>
+          <div>          <button class="button-main">Venha nos conhecer</button></div>
+
+        </div>
+        <div class="body-image">
+          <img src="assets/title-image.png" alt="logotipo da escola " />
+        </div>
+      </section>
+
+      <!-----------------------CARDS SECTION ----------------------------------->
+
+      <section>
+        <section class="cards">
+          <div  id="card1">    
+              <h1>Projetos</h1>
+                <p>Conheça os projetos que nossa escola oferece. </p>
+
+                <a href="./pages/projetos.html"> 
+                  <img  class="arrow" src="./assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
+                </a>          
+          </div>
+          <div id="card2">        
+            <h1>
+              Eventos 
+            </h1>
+              <p>Conheça o nosso calendário de eventos.</p>
+              <a href="./pages/eventos.html">
+                <img class="arrow" src="./assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
+              </a>
+          </div>
+          <div id="card3">
+              <h1>Quem Somos</h1>
+              <p> Saiba mais sobre o nosso objetivo como escola. </p>
+              <a href="./pages/quemsomos.html">
+                <img class="arrow" src="./assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
+               </a>           
+          </div>
+          <div id="card4">           
+              <h1>Contato</h1>
+              <p> Entre em contato conosco. </p>
+            <a href="./pages/contato.html">
+              <img class="arrow" src="./assets/ArrowRightShort.svg" alt="arrow ArrowRightShort">
+            </a>              
+          </div>         
+        </section>
+    </main>
+
+
+    <!----------------FINAL DA PARTE QUE PODE SER SUBSTITUIDA!------------------->
+
+    <!-------------------------------FOOTER------------------------------------->
+
+    <footer >
+      <section class="footer">
+        <div class="footer-info">
+          <h1>EREM<span>JLB</span>.</h1>
+          <p class="p1">&copy;EREM José Leite Barros.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div id="social-links">   
+            <a href="https://instagram.com/erem_jlb" target="_blank">  <ion-icon name="logo-instagram"> 
+          </ion-icon></a>
+            <a href="https://facebook.com/EremJoseLeiteBarros" target="_blank">           <ion-icon name="logo-facebook"> 
+          </ion-icon></a>     
+            <a href="" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon> </a>
+        </div>
+      </section>
+      <div class="footer-links">
+        <a href="./pages/projetos.html">Projetos</a>
+        <a href="./pages/eventos.html">Eventos</a>
+        <a href="./pages/quemsomos.html">Quem Somos</a>
+        <a href="./pages/contato.html">Contato</a>
+      </div>
+
+      
+
+    </footer>
+    <div class="creditos">
+      <p>
+        Desenvolvido pelos alunos: @<a href="https://github.com/Alisonjs0">Alison-Jose</a> e @<a href="https://github.com/cauasantoslt">Cauã-Santos.</a>
+      </p>
+    </div>
+
+    <!--------------------------------IONICON SCRIPT---------------------------->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
+  </body>
+</html>
